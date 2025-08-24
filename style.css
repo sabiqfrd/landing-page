@@ -3,6 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .header, .footer {
@@ -10,14 +12,17 @@ body {
 }
 
 .header, .footer, .hero, a {
+    display: flex;
     background-color: #1f2937;
     color: #e5e7eb;
     text-decoration: none;
-    font-size: 18px;
 }
 
 .quote {
     background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
  }
 
 .header {
@@ -31,4 +36,19 @@ body {
     font-size: 24px;
     font-weight: bold;
     margin-right: auto;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.author {
+    margin-left: auto;
+    font-weight: bold;
 }
