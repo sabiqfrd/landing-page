@@ -5,6 +5,7 @@ body {
     margin: 0;
     font-size: 18px;
     font-weight: lighter;
+    color: #e5e7eb;
 }
 
 .header, .footer {
@@ -14,7 +15,6 @@ body {
 .header, .footer, .hero, a {
     display: flex;
     background-color: #1f2937;
-    color: #e5e7eb;
     text-decoration: none;
 }
 
@@ -51,4 +51,25 @@ body {
 .author {
     margin-left: auto;
     font-weight: bold;
+}
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    margin: auto;
+    padding: 24px 48px;
+    border-radius: 8px;
+    gap: 48px;
+}
+
+button {
+    flex-shrink: 0;
+    border: solid #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 16px;
+    align-self: center;
 }
