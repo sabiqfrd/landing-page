@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     margin: 0;
     font-size: 18px;
-    font-weight: lighter;
+    /* font-weight: lighter; */
 }
 
 .header, .footer {
@@ -44,6 +44,7 @@ body {
 }
 
 .quote-text {
+    font-weight: lighter;
     font-style: italic;
     font-size: 36px;
 }
@@ -55,6 +56,7 @@ body {
 
 .action {
     display: flex;
+    justify-content: center;
     background-color: #3882f6;
     padding: 24px 48px;
     border-radius: 8px;
@@ -80,7 +82,7 @@ button {
     font-weight: 900;
 }
 
-img {
+.hero-pic {
     background-color: #e5e7eb;
     color: black;
 }
@@ -94,4 +96,34 @@ img {
     display: flex;
     flex-direction: column;
     gap: 4px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937;
+}
+
+.info-main {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-pic {
+    border: #3882f6 solid;
+    border-radius: 8px;
 }
